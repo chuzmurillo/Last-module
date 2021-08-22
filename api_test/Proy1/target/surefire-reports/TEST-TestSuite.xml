@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="19.389" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1\target\test-classes;C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1\target\classes;C:\Users\jmurillo\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\jmurillo\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\jmurillo\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\jmurillo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jmurillo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jmurillo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jmurillo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jmurillo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jmurillo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\jmurillo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\jmurillo\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\jmurillo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jmurillo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\jmurillo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\jmurillo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\jmurillo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\jmurillo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\jmurillo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\jmurillo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\jmurillo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;C:\Users\jmurillo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\jmurillo\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\jmurillo\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\jmurillo\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\jmurillo\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\jmurillo\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\jmurillo\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\jmurillo\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\jmurillo\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\jmurillo\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\jmurillo\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\jmurillo\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\jmurillo\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\jmurillo\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\jmurillo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\jmurillo\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\jmurillo\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\jmurillo\AppData\Local\Temp\surefire18230956368712521431\surefirebooter1262687760063703573.jar C:\Users\jmurillo\AppData\Local\Temp\surefire18230956368712521431 2021-08-22T12-28-39_253-jvmRun1 surefire13221960886046670995tmp surefire_07659224811292928128tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1\target\test-classes;C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1\target\classes;C:\Users\jmurillo\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\jmurillo\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\jmurillo\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\jmurillo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jmurillo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\jmurillo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jmurillo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jmurillo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\jmurillo\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\jmurillo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\jmurillo\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\jmurillo\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\jmurillo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\jmurillo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\jmurillo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\jmurillo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\jmurillo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\jmurillo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\jmurillo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\jmurillo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;C:\Users\jmurillo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\jmurillo\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\jmurillo\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\jmurillo\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\jmurillo\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\jmurillo\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\jmurillo\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\jmurillo\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\jmurillo\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\jmurillo\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\jmurillo\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\jmurillo\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\jmurillo\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\jmurillo\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\jmurillo\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\jmurillo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\jmurillo\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\jmurillo\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jmurillo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\jmurillo\AppData\Local\Temp\surefire18230956368712521431\surefirebooter1262687760063703573.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="jmurillo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\jmurillo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jmurillo\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\CLOC;C:\Program Files\CMake\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jmurillo\AppData\Local\Microsoft\WindowsApps;C:\Users\jmurillo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jmurillo\.dotnet\tools;C:\Program Files\SciTools\bin\pc-win64;C:\Users\jmurillo\AppData\Roaming\npm;C:\Users\jmurillo\go\bin;C:\Program Files\apache-maven-3.8.2\bin;C:\Users\jmurillo\Desktop\Personal\cosas de la u\apache-jmeter-5.4.1\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testFakeLogOut" classname="AuthenticationTests" time="0.2"/>
+  <testcase name="createCommentTest" classname="CommentTests" time="0.205"/>
+  <testcase name="createPostTest" classname="PostTests" time="0.45"/>
+  <testcase name="testInvalidLogin" classname="AuthenticationTests" time="0.154"/>
+  <testcase name="deleteCommentTest" classname="CommentTests" time="0.174"/>
+  <testcase name="deletePostTest" classname="PostTests" time="0.439"/>
+  <testcase name="testInvalidRegister" classname="AuthenticationTests" time="0.11"/>
+  <testcase name="getAllCommentsTest" classname="CommentTests" time="0.175"/>
+  <testcase name="getAllPostsTest" classname="PostTests" time="0.476"/>
+  <testcase name="getOneCommentTest" classname="CommentTests" time="0.167"/>
+  <testcase name="testLogOut" classname="AuthenticationTests" time="0.292"/>
+  <testcase name="getOnePostTest" classname="PostTests" time="0.386"/>
+  <testcase name="invalidDeleteCommentTest" classname="CommentTests" time="0.193"/>
+  <testcase name="testLogin" classname="AuthenticationTests" time="0.233"/>
+  <testcase name="invalidGetOnePostTest" classname="PostTests" time="0.385"/>
+  <testcase name="invalidGetOneCommentTest" classname="CommentTests" time="0.121"/>
+  <testcase name="testRegister" classname="AuthenticationTests" time="0.228"/>
+  <testcase name="invalidUpdatePostTest" classname="PostTests" time="0.134"/>
+  <testcase name="invalidUpdateCommentTest" classname="CommentTests" time="0.154"/>
+  <testcase name="unauthorizedCreatePostTest" classname="PostTests" time="0.095"/>
+  <testcase name="unauthorizedCreateCommentTest" classname="CommentTests" time="0.135"/>
+  <testcase name="unauthorizedGetAllPostsTest" classname="PostTests" time="0.092"/>
+  <testcase name="unauthorizedDeleteCommentTest" classname="CommentTests" time="0.129"/>
+  <testcase name="unauthorizedGetOnePostTest" classname="PostTests" time="0.069"/>
+  <testcase name="unauthorizedGetAllCommentsTest" classname="CommentTests" time="0.138"/>
+  <testcase name="unauthorizedUpdatePostTest" classname="PostTests" time="0.047"/>
+  <testcase name="unauthorizedGetOneCommentTest" classname="CommentTests" time="0.141"/>
+  <testcase name="unauthorizedUpdateCommentTest" classname="CommentTests" time="0.131"/>
+  <testcase name="updatePostTest" classname="PostTests" time="0.367"/>
+  <testcase name="updateCommentTest" classname="CommentTests" time="0.141"/>
+</testsuite>

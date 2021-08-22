@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression" class="navigator-link">
+              <span class="suite-name border-passed">Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression" class="navigator-link ">
+                    <span>C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1\src\test\resources\heroku.suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression" class="hide-methods passed suite-Regression"> (hide)</a> <!-- hide-methods passed suite-Regression -->
+                      <a href="#" panel-name="suite-Regression" class="show-methods passed suite-Regression"> (show)</a> <!-- show-methods passed suite-Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="createCommentTest">createCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="createPostTest">createPostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="deleteCommentTest">deleteCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="deletePostTest">deletePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="getAllCommentsTest">getAllCommentsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="getAllPostsTest">getAllPostsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="getOneCommentTest">getOneCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="getOnePostTest">getOnePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="invalidDeleteCommentTest">invalidDeleteCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="invalidGetOneCommentTest">invalidGetOneCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="invalidGetOnePostTest">invalidGetOnePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="invalidUpdateCommentTest">invalidUpdateCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="invalidUpdatePostTest">invalidUpdatePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="AuthenticationTests" class="method navigator-link" hash-for-method="testFakeLogOut">testFakeLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="AuthenticationTests" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="AuthenticationTests" class="method navigator-link" hash-for-method="testInvalidRegister">testInvalidRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="AuthenticationTests" class="method navigator-link" hash-for-method="testLogOut">testLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="AuthenticationTests" class="method navigator-link" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="AuthenticationTests" class="method navigator-link" hash-for-method="testRegister">testRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="unauthorizedCreateCommentTest">unauthorizedCreateCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="unauthorizedCreatePostTest">unauthorizedCreatePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="unauthorizedDeleteCommentTest">unauthorizedDeleteCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="unauthorizedGetAllCommentsTest">unauthorizedGetAllCommentsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="unauthorizedGetAllPostsTest">unauthorizedGetAllPostsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="unauthorizedGetOneCommentTest">unauthorizedGetOneCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="unauthorizedGetOnePostTest">unauthorizedGetOnePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="unauthorizedUpdateCommentTest">unauthorizedUpdateCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="unauthorizedUpdatePostTest">unauthorizedUpdatePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="CommentTests" class="method navigator-link" hash-for-method="updateCommentTest">updateCommentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression" title="PostTests" class="method navigator-link" hash-for-method="updatePostTest">updatePostTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression" class="panel Regression">
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PostTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPostTest">
+                  </a> <!-- createPostTest -->
+                  <span class="method-name">createPostTest</span>
+                  <em>
+(This test aims to create a post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePostTest">
+                  </a> <!-- deletePostTest -->
+                  <span class="method-name">deletePostTest</span>
+                  <em>
+(This test aims delete a post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllPostsTest">
+                  </a> <!-- getAllPostsTest -->
+                  <span class="method-name">getAllPostsTest</span>
+                  <em>
+(This test aims get all posts)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getOnePostTest">
+                  </a> <!-- getOnePostTest -->
+                  <span class="method-name">getOnePostTest</span>
+                  <em>
+(This test aims get one post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidGetOnePostTest">
+                  </a> <!-- invalidGetOnePostTest -->
+                  <span class="method-name">invalidGetOnePostTest</span>
+                  <em>
+(This test aims get an invalid post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUpdatePostTest">
+                  </a> <!-- invalidUpdatePostTest -->
+                  <span class="method-name">invalidUpdatePostTest</span>
+                  <em>
+(This test aims update an invalid post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedCreatePostTest">
+                  </a> <!-- unauthorizedCreatePostTest -->
+                  <span class="method-name">unauthorizedCreatePostTest</span>
+                  <em>
+(This test aims to create an unauthorized post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedGetAllPostsTest">
+                  </a> <!-- unauthorizedGetAllPostsTest -->
+                  <span class="method-name">unauthorizedGetAllPostsTest</span>
+                  <em>
+(This test aims get all posts without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedGetOnePostTest">
+                  </a> <!-- unauthorizedGetOnePostTest -->
+                  <span class="method-name">unauthorizedGetOnePostTest</span>
+                  <em>
+(This test aims get one post without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedUpdatePostTest">
+                  </a> <!-- unauthorizedUpdatePostTest -->
+                  <span class="method-name">unauthorizedUpdatePostTest</span>
+                  <em>
+(This test aims update a post without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatePostTest">
+                  </a> <!-- updatePostTest -->
+                  <span class="method-name">updatePostTest</span>
+                  <em>
+(This test aims update a post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AuthenticationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFakeLogOut">
+                  </a> <!-- testFakeLogOut -->
+                  <span class="method-name">testFakeLogOut</span>
+                  <em>
+(This aims to an invalid logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin">
+                  </a> <!-- testInvalidLogin -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <em>
+(This test aims to not login an user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidRegister">
+                  </a> <!-- testInvalidRegister -->
+                  <span class="method-name">testInvalidRegister</span>
+                  <em>
+(This test aims to register an user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogOut">
+                  </a> <!-- testLogOut -->
+                  <span class="method-name">testLogOut</span>
+                  <em>
+(This aims to logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin">
+                  </a> <!-- testLogin -->
+                  <span class="method-name">testLogin</span>
+                  <em>
+(This test aims to login an user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegister">
+                  </a> <!-- testRegister -->
+                  <span class="method-name">testRegister</span>
+                  <em>
+(This test aims to register an user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommentTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCommentTest">
+                  </a> <!-- createCommentTest -->
+                  <span class="method-name">createCommentTest</span>
+                  <em>
+(This test aims to create a comment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCommentTest">
+                  </a> <!-- deleteCommentTest -->
+                  <span class="method-name">deleteCommentTest</span>
+                  <em>
+(This test aims to delete a comment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllCommentsTest">
+                  </a> <!-- getAllCommentsTest -->
+                  <span class="method-name">getAllCommentsTest</span>
+                  <em>
+(This test aims to get all comments)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getOneCommentTest">
+                  </a> <!-- getOneCommentTest -->
+                  <span class="method-name">getOneCommentTest</span>
+                  <em>
+(This test aims to get one comment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidDeleteCommentTest">
+                  </a> <!-- invalidDeleteCommentTest -->
+                  <span class="method-name">invalidDeleteCommentTest</span>
+                  <em>
+(This test aims to delete an invalid comment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidGetOneCommentTest">
+                  </a> <!-- invalidGetOneCommentTest -->
+                  <span class="method-name">invalidGetOneCommentTest</span>
+                  <em>
+(This test aims to get an invalid comment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUpdateCommentTest">
+                  </a> <!-- invalidUpdateCommentTest -->
+                  <span class="method-name">invalidUpdateCommentTest</span>
+                  <em>
+(This test aims to update an invalid comment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedCreateCommentTest">
+                  </a> <!-- unauthorizedCreateCommentTest -->
+                  <span class="method-name">unauthorizedCreateCommentTest</span>
+                  <em>
+(This test aims to create a comment without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedDeleteCommentTest">
+                  </a> <!-- unauthorizedDeleteCommentTest -->
+                  <span class="method-name">unauthorizedDeleteCommentTest</span>
+                  <em>
+(This test aims to delete a comment without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedGetAllCommentsTest">
+                  </a> <!-- unauthorizedGetAllCommentsTest -->
+                  <span class="method-name">unauthorizedGetAllCommentsTest</span>
+                  <em>
+(This test aims to get all comments without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedGetOneCommentTest">
+                  </a> <!-- unauthorizedGetOneCommentTest -->
+                  <span class="method-name">unauthorizedGetOneCommentTest</span>
+                  <em>
+(This test aims to get one comment without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unauthorizedUpdateCommentTest">
+                  </a> <!-- unauthorizedUpdateCommentTest -->
+                  <span class="method-name">unauthorizedUpdateCommentTest</span>
+                  <em>
+(This test aims to update a comment without authorization)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateCommentTest">
+                  </a> <!-- updateCommentTest -->
+                  <span class="method-name">updateCommentTest</span>
+                  <em>
+(This test aims to update a comment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+        </div> <!-- panel Regression -->
+        <div panel-name="test-xml-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jmurillo\Desktop\Personal\cosas de la u\Last module\api_test\Proy1\src\test\resources\heroku.suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;host&quot; value=&quot;https://api-coffee-testing.herokuapp.com&quot;/&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;CommentTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CommentTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CommentTests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;PostTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;PostTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PostTests --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;OtherTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;AuthenticationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OtherTests --&gt;
+&lt;/suite&gt; &lt;!-- Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CommentTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PostTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">OtherTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">singleUsePost</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">deletePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">useComment</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getAllCommentsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getOneCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidDeleteCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidGetOneCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidUpdateCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">unauthorizedDeleteCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">unauthorizedUpdateCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">usePost</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getAllPostsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getOnePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidGetOnePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidUpdatePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">unauthorizedCreateCommentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">unauthorizedGetOnePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">unauthorizedUpdatePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updatePostTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression');
+function tableData_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAllPostsTest')
+data.setCell(0, 2, 'PostTests')
+data.setCell(0, 3, 476);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'updatePostTest')
+data.setCell(1, 2, 'PostTests')
+data.setCell(1, 3, 467);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createPostTest')
+data.setCell(2, 2, 'PostTests')
+data.setCell(2, 3, 450);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'deletePostTest')
+data.setCell(3, 2, 'PostTests')
+data.setCell(3, 3, 439);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogOut')
+data.setCell(4, 2, 'AuthenticationTests')
+data.setCell(4, 3, 411);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'invalidDeleteCommentTest')
+data.setCell(5, 2, 'CommentTests')
+data.setCell(5, 3, 394);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getOnePostTest')
+data.setCell(6, 2, 'PostTests')
+data.setCell(6, 3, 386);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'invalidGetOnePostTest')
+data.setCell(7, 2, 'PostTests')
+data.setCell(7, 3, 385);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'invalidUpdatePostTest')
+data.setCell(8, 2, 'PostTests')
+data.setCell(8, 3, 377);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLogin')
+data.setCell(9, 2, 'AuthenticationTests')
+data.setCell(9, 3, 233);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRegister')
+data.setCell(10, 2, 'AuthenticationTests')
+data.setCell(10, 3, 228);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createCommentTest')
+data.setCell(11, 2, 'CommentTests')
+data.setCell(11, 3, 224);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFakeLogOut')
+data.setCell(12, 2, 'AuthenticationTests')
+data.setCell(12, 3, 221);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getAllCommentsTest')
+data.setCell(13, 2, 'CommentTests')
+data.setCell(13, 3, 175);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deleteCommentTest')
+data.setCell(14, 2, 'CommentTests')
+data.setCell(14, 3, 174);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testInvalidLogin')
+data.setCell(15, 2, 'AuthenticationTests')
+data.setCell(15, 3, 169);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getOneCommentTest')
+data.setCell(16, 2, 'CommentTests')
+data.setCell(16, 3, 167);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testInvalidRegister')
+data.setCell(17, 2, 'AuthenticationTests')
+data.setCell(17, 3, 156);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidGetOneCommentTest')
+data.setCell(18, 2, 'CommentTests')
+data.setCell(18, 3, 156);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'invalidUpdateCommentTest')
+data.setCell(19, 2, 'CommentTests')
+data.setCell(19, 3, 154);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'unauthorizedGetOnePostTest')
+data.setCell(20, 2, 'PostTests')
+data.setCell(20, 3, 146);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'unauthorizedUpdatePostTest')
+data.setCell(21, 2, 'PostTests')
+data.setCell(21, 3, 142);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'unauthorizedGetOneCommentTest')
+data.setCell(22, 2, 'CommentTests')
+data.setCell(22, 3, 141);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'updateCommentTest')
+data.setCell(23, 2, 'CommentTests')
+data.setCell(23, 3, 141);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'unauthorizedGetAllPostsTest')
+data.setCell(24, 2, 'PostTests')
+data.setCell(24, 3, 137);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'unauthorizedGetAllCommentsTest')
+data.setCell(25, 2, 'CommentTests')
+data.setCell(25, 3, 137);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'unauthorizedCreateCommentTest')
+data.setCell(26, 2, 'CommentTests')
+data.setCell(26, 3, 135);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'unauthorizedCreatePostTest')
+data.setCell(27, 2, 'PostTests')
+data.setCell(27, 3, 132);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'unauthorizedUpdateCommentTest')
+data.setCell(28, 2, 'CommentTests')
+data.setCell(28, 3, 131);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'unauthorizedDeleteCommentTest')
+data.setCell(29, 2, 'CommentTests')
+data.setCell(29, 3, 129);
+window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-Regression">
+              </div> <!-- times-div-Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup(https://api-coffee-testing.herokuapp.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">511 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">511 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFakeLogOut</span>
+                <span class="method-start">2979 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createCommentTest</span>
+                <span class="method-start">2984 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPostTest</span>
+                <span class="method-start">3003 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">3203 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">3208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">3453 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">3813 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">3843 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">4043 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin</span>
+                <span class="method-start">4404 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteCommentTest</span>
+                <span class="method-start">4419 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">4573 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">4593 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deletePostTest</span>
+                <span class="method-start">4606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">5045 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">5093 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">5125 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">5620 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInvalidRegister</span>
+                <span class="method-start">5665 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllCommentsTest</span>
+                <span class="method-start">5711 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">5821 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">5886 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAllPostsTest</span>
+                <span class="method-start">6170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">6367 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">6442 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">6646 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogOut</span>
+                <span class="method-start">6993 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getOneCommentTest</span>
+                <span class="method-start">7112 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">7229 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">7279 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">7404 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getOnePostTest</span>
+                <span class="method-start">7827 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">7862 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">7987 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">8213 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidDeleteCommentTest</span>
+                <span class="method-start">8412 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogin</span>
+                <span class="method-start">8613 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">8806 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">8841 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">8846 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">9359 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">9409 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidGetOnePostTest</span>
+                <span class="method-start">9444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">9829 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidGetOneCommentTest</span>
+                <span class="method-start">9894 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegister</span>
+                <span class="method-start">9929 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">10050 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">10157 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">10372 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">10618 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidUpdatePostTest</span>
+                <span class="method-start">10925 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidUpdateCommentTest</span>
+                <span class="method-start">11168 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">11302 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">11322 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">11780 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">11820 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedCreatePostTest</span>
+                <span class="method-start">12279 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedCreateCommentTest</span>
+                <span class="method-start">12316 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">12411 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">12451 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">12909 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">12949 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedGetAllPostsTest</span>
+                <span class="method-start">13434 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedDeleteCommentTest</span>
+                <span class="method-start">13479 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">13571 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">13608 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">14059 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">14122 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedGetOnePostTest</span>
+                <span class="method-start">14566 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedGetAllCommentsTest</span>
+                <span class="method-start">14644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">14712 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">14781 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">15209 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">15294 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedUpdatePostTest</span>
+                <span class="method-start">15729 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedGetOneCommentTest</span>
+                <span class="method-start">15825 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">15871 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">15966 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">16365 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">16462 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">updatePostTest</span>
+                <span class="method-start">16854 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">unauthorizedUpdateCommentTest</span>
+                <span class="method-start">16954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">17085 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">17321 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">create</span>
+                <span class="method-start">17686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateCommentTest</span>
+                <span class="method-start">18178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">delete</span>
+                <span class="method-start">18319 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
